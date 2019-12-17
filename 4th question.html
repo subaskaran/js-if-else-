@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> q4 </title>
+</head>
+<body>
+<p id="demo"> </p>
+<p id="memo"> </p>
+<p id="aemo"> </p>
+<p id="bemo"> </p>
+  <script>
+function color(num) {
+  if(num<10){
+  return "Blue";
+  }
+  else if(num<20){
+  return "Red";
+  }
+  else if(num<30){
+  return "Green";
+  }
+  else {
+  return "That it is not a correct colour option";
+  }
+}
+document.getElementById("demo").innerHTML = color(68);
+document.getElementById("memo").innerHTML = color(6);
+document.getElementById("aemo").innerHTML = color(15);
+document.getElementById("bemo").innerHTML = color(26);
+</script>
+</body>
+</html>

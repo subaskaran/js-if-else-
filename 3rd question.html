@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+    <title> q3 </title>
+</head>
+<body>
+<p id="demo"> </p>
+<p id="aemo"> </p>
+<p id="bemo"> </p>
+<p id="cemo"> </p>
+    <script>
+    function grade(marks) {
+      if(marks>75){
+      return " A " + " = " + marks;
+      }
+      else if(marks>60){
+      return " B " + " = " + marks;
+      }
+      else if(marks>45){
+      return " C " + " = " + marks;
+      }
+      else{
+      return " F " + " = " + marks;
+      }
+      }
+      document.getElementById("demo").innerHTML = grade(60);
+      document.getElementById("aemo").innerHTML = grade(90);
+      document.getElementById("bemo").innerHTML = grade(65);
+      document.getElementById("cemo").innerHTML = grade(30);
+  </script>
+</body>
+</html>
